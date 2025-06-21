@@ -8,3 +8,6 @@ def leer_nota(dato):
                 print('Debe ingresar una nota entre 1 y 7')
         except:
             print('Valor no válido. Intente nuevamente.')
+
+ingreso_nota = leer_nota('Ingrese nota: ')
+print('La nota que ingresó es:', ingreso_nota)
